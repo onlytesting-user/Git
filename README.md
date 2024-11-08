@@ -63,7 +63,7 @@ git config --global --list
 
 _Lista todas as mudanças globalmente feitas por você (como as feitas acima)_
 
----
+<br>
 
 # 2° Comandos para chaves SSH
 
@@ -91,7 +91,7 @@ _Mostra a chave pública, sendo essa a que você deve colocar no GitHub_
 
 **_OBS: certifique-se de que está dentro da pasta .ssh (essa pasta fica dentro do seu usuário)_**
 
----
+<br>
 
 # 3° Comandos Básicos Iniciais
 
@@ -118,7 +118,7 @@ _Clona um repositório existente_
 <br>
 
 ```
-git clone <link do repositório no Github> 
+git clone <link do repositório no Github>
 --branch <nome da branch> --single-branch
 ```
 
@@ -148,9 +148,9 @@ git commit -m "texto do commit"
 
 _Comita as alterações e exibe um texto detalhando-a_
 
-**Primeiro commit:**
+### Primeiro commit:
 
-_Initializing Repository_
+- **_Initializing Repository_**
 
 <br>
 
@@ -194,7 +194,7 @@ _Abre o terminal para editar e escrever commits maiores e mais detalhados. Utili
 
 **Ex:**
 
-1. Atualização de pacotes e dependências que não exijem mudanças na estrutura do build ou na configuração do ambiente ; 
+1. Atualização de pacotes e dependências que não exijem mudanças na estrutura do build ou na configuração do ambiente ;
 2. Correção de erros de digitação ;
 3. Mudanças no nome de variáveis para melhor legibilidade ;
 4. Atualizar comentários desatualizados, remover comentários redundantes ou desnecessários, como limpar código comentado que não deve mais estar no repositório. Fazer pequenas melhorias nos comentários para manter a consistência ou clareza, sem adicionar documentação técnica detalhada.
@@ -206,7 +206,7 @@ _Abre o terminal para editar e escrever commits maiores e mais detalhados. Utili
 **Ex:**
 
 1. Alterar a tag InvariantGlobalization do arquivo csproj de 'true' para 'false' ;
-2. Alterações em configurações de ambiente local, como ajustes de portas, URLs de serviços internos, etc. Como mudar porta padrão do servidor de desenvolvimento para evitar conflitos ; 
+2. Alterações em configurações de ambiente local, como ajustes de portas, URLs de serviços internos, etc. Como mudar porta padrão do servidor de desenvolvimento para evitar conflitos ;
 3. Mudanças em arquivos de configuração que afetam o comportamento do sistema, como arquivos YAML, JSON, XML, etc. Como atualizar configuração de banco de dados no arquivo de configuração principal ;
 4. Mudanças em arquivos de configuração de build, como 'pom.xml', 'package.json', 'build.gradle', entre outros. Como ajustar versão do compilador Java no arquivo pom.xml ;
 5. Mudanças em variáveis de ambiente usadas para configurar o ambiente de desenvolvimento ou produção do projeto. Como atualizar variável de ambiente para URL de API de produção.
@@ -224,13 +224,13 @@ _Abre o terminal para editar e escrever commits maiores e mais detalhados. Utili
 
 <br>
 
-**Estrutura:**
+### Estrutura:
 
-**<tipo>:** _<descrição simples>_
+**< tipo >:** _< descrição simples >_
 
-**p1 ->** _<explique o porquê de fazer o commit>_
+**p1 ->** _< explique o porquê de fazer o commit >_
 
-**p2 ->** _<explique o que o commit faz>_
+**p2 ->** _< explique o que o commit faz >_
 
 **_OBS: os commits devem ser escritos no tempo presente e não no passado. Também devem estar sempre no imperativo (`add`, `fix`, `update`)_**
 
@@ -260,7 +260,7 @@ git push origin <nome da branch>
 
 _Envia as alterações feitas localmente para o repositório virtual. Deve ser assim todas as outras vezes que você fizer um push com exceção da primeira_
 
----
+<br>
 
 # 4° Comandos para Branches
 
@@ -318,7 +318,7 @@ git branch -D <nome da Branch>
 
 _Exclui a Branch mesmo que não tenha sido feito nenhum merge_
 
----
+<br>
 
 # 5° Comandos para Consulta
 
@@ -344,9 +344,9 @@ git reflog
 
 _Confere e retorna todos os commits feitos, mas com informações mais detalhadas sobre cada um deles_
 
-----
+<br>
 
-# 6° Comandos para Mesclar 
+# 6° Comandos para Mesclar
 Diferenças
 
 ```
@@ -370,7 +370,7 @@ git pull origin main
 
 _Puxa as alterações do repositório virtual para o local. É executado depois do git remote add_
 
----
+<br>
 
 # 7° Comandos para Restauração
 
@@ -446,7 +446,7 @@ _Desfaz os commits do repositório local até o commit especificado, removendo t
 
 **_OBS: Este comando deve ser usado com cuidado, pois as alterações descartadas não podem ser recuperadas facilmente_**
 
----
+<br>
 
 # 8° Comandos para Exclusão
 
@@ -476,7 +476,7 @@ _Use os comandos abaixo quando o arquivo/pasta em questão já estiver no github
 
 _Use `--cached -r <nome do arquivo> para parar de rastrear pastas individualmente ou -r --cached .` para parar de rastrear todas as pastas._
 
----
+<br>
 
 # 9° Comandos para Manipulação de Stash
 
@@ -526,7 +526,7 @@ git stash pop
 
 _Para aplicar e remover o stash mais recente em uma única etapa_
 
----
+<br>
 
 # 10° Melhor não usar
 
