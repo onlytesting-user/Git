@@ -1,15 +1,15 @@
 # Sumário:
 
-1° - [Comandos para o arquivo de configuração do Git](1-comandos-para-o-arquivo-de-configuração-do-git) <br>
-2° - [Comandos para chaves SSH](2-comandos-para-chaves-ssh) <br>
-3° - [Comandos Básicos Iniciais](3-comandos-básicos-iniciais) <br>
-4° - [Comandos para Branches](4-comandos-para-branches) <br>
-5° - [Comandos para Consulta](5-comandos-para-consulta) <br>
-6° - [Comandos para Mesclar Diferenças](6-comandos-para-mesclar-diferenças) <br>
-7° - [Comandos para Restauração](7-comandos-para-restauração) <br>
-8° - [Comandos para Exclusão](8-comandos-para-exclusão) <br>
-9° - [Comandos para Manipulação de Stash](9-comandos-para-manipulação-de-stash) <br>
-10° - [Melhor não usar](10-melhor-não-usar)
+1° - [Comandos para o arquivo de configuração do Git](#1-comandos-para-o-arquivo-de-configuração-do-git) <br>
+2° - [Comandos para chaves SSH](#2-comandos-para-chaves-ssh) <br>
+3° - [Comandos Básicos Iniciais](#3-comandos-básicos-iniciais) <br>
+4° - [Comandos para Branches](#4-comandos-para-branches) <br>
+5° - [Comandos para Consulta](#5-comandos-para-consulta) <br>
+6° - [Comandos para Mesclar Diferenças](#6-comandos-para-mesclar-diferenças) <br>
+7° - [Comandos para Restauração](#7-comandos-para-restauração) <br>
+8° - [Comandos para Exclusão](#8-comandos-para-exclusão) <br>
+9° - [Comandos para Manipulação de Stash](#9-comandos-para-manipulação-de-stash) <br>
+10° - [Melhor não usar](#10-melhor-não-usar)
 
 <br>
 
