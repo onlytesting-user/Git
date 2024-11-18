@@ -162,12 +162,12 @@ _Abre o terminal para editar e escrever commits maiores e mais detalhados. Utili
 
 **Tipo:**
 
-**[
-&nbsp;&nbsp; feat, fix, <br>
-&nbsp;&nbsp; style, refactor, <br>
-&nbsp;&nbsp; test, build, <br>
-&nbsp;&nbsp; ci, perf, <br>
-&nbsp;&nbsp; revert, docs <br>
+**[ <br>
+&nbsp;&nbsp;&nbps; feat, fix, <br>
+&nbsp;&nbsp;&nbps; style, refactor, <br>
+&nbsp;&nbsp;&nbps; test, build, <br>
+&nbsp;&nbsp;&nbps; ci, perf, <br>
+&nbsp;&nbsp;&nbps; revert, docs <br>
 ]**
 
 **feat:** _Implementação de uma nova funcionalidade_
